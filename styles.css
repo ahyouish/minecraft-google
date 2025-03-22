@@ -1,0 +1,55 @@
+/* Reset some default styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    height: 100%;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #7BBF1A; /* Minecraft Grass Green */
+    color: white;
+    height: 100%;
+}
+
+.container {
+    text-align: center;
+}
+
+header img {
+    width: 200px;
+    margin-bottom: 50px;
+}
+
+#search-bar {
+    padding: 15px;
+    width: 300px;
+    border-radius: 5px;
+    border: 2px solid #5A7F30; /* Grass Block color */
+    background-color: #A0D200; /* Minecraft Grass Block color */
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+#search-btn {
+    padding: 10px 20px;
+    background-color: #4F7036; /* Dirt Block color */
+    border: none;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#search-btn:hover {
+    background-color: #3D5B2E;
+}
+
+footer {
+    margin-top: 30px;
+    font-size: 14px;
+    color: white;
+}
